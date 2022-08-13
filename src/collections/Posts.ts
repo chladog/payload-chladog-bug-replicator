@@ -35,7 +35,6 @@ const Posts: CollectionConfig = {
     {
       name: 'title',
       type: 'text',
-      localized: true,
     },
     {
       name: 'owner',

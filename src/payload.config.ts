@@ -13,11 +13,6 @@ export default buildConfig({
     user: Users.slug,
   },
   collections: [Categories, Posts, Tags, Users],
-  localization: {
-    locales: ["en", "cs"],
-    defaultLocale: "en",
-    fallback: false,
-  },
   typescript: {
     outputFile: path.resolve(__dirname, "payload-types.ts"),
   },

@@ -14,7 +14,6 @@ const Users: CollectionConfig = {
     {
       name: 'name',
       type: 'text',
-      localized: true
     },
     {
       name: "activePost",
